@@ -481,6 +481,28 @@ textarea {
 
 .agreement {
     height: 120px;
+    padding-top: 34px;
+}
+
+.checkForm[type=checkbox] {
+    display: none;
+}
+
+.checkForm[type=checkbox] + label {
+    display: inline-block;
+    width: 47px;
+    height: 49px;
+    border: 1px solid rgba(36, 186, 159, 0.3);
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.agreement span {
+    display: block;
+    margin-left: 62px;
+    color: #a6a6a6;
+    font-size: 20px;
+    width: 290px;
 }
 
 .mainButton {
