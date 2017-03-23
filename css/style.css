@@ -545,3 +545,15 @@ footer {
     line-height: 110px;
     float: left;
 }
+
+.media span {
+    font-size: 19px;
+    font-weight: 500;
+    color: #939393;
+    padding-left: 65px;
+}
+
+.media .titleMark {
+    color: #8e8e8e;
+    font-weight: 700;
+}
