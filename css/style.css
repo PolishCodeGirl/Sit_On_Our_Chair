@@ -42,6 +42,10 @@ html {
     display: inline-block;
     position: relative;/* zastanowić się czy jest to potrzeben */
     z-index: 1;
+    font-size: 13px;
+    padding-left: 42px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .subMenu {
@@ -544,6 +548,9 @@ footer {
     width: 360px;
     line-height: 110px;
     float: left;
+}
+.media img {
+    cursor: pointer;
 }
 
 .media span {
